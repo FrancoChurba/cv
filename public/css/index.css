@@ -1,0 +1,407 @@
+
+/* --------------------computadora-------------------- */
+@media screen and (min-width: 1024px) { 
+    .Menu_phone {
+        display: none;
+    }
+
+    .respmenu input,
+    .respmenu .fa-thin,
+    .respmenu .fa-times {
+        display: none;
+        height: 48px;
+    }
+    * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration-line:none;
+    color:inherit;
+    line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    .body{
+        background-color: #fff59d;
+    }
+    .header{
+        background-color: #0c241a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        padding: 5px 5%;
+    }
+    .header .navbar li{
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+    .header .navbar a{
+        font-size: 700;
+        color:#eceff1 ;
+        text-decoration: none;
+    }
+    .header .navbar li:hover{
+        transform: scale(1.1);
+    }
+    .contenedor {
+        position: relative;
+        width: 75%;
+        margin-left:2% ;
+    }
+    
+    .foto {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        margin: 2% 2%;
+        border-radius: 50%;
+    }
+    
+    .nombre {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .contenedor:hover .foto {
+        opacity: 0.8;
+    }
+    
+    .contenedor:hover .nombre {
+        opacity: 1;
+    }
+    
+    .texto {
+        background-color: #a7e4f3;
+        color: black;
+        font-size: 16px;
+        padding: 16px 32px;
+        text-align: center;
+    }   
+    
+    .contenedorGrande{
+        float: left;
+        display:flex ;
+    }
+    .informacion{
+        margin-left: 7%;
+    }
+
+    .info{
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-right: 7%;
+    text-align: justify;
+    
+    }
+    .titulo{
+        text-align: center;
+        font-size: 5rem;
+    }
+    .center{
+        text-align: center;
+        font-size: 3rem;
+        color: #9b433d;
+    }
+    .center1{
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(28, 245, 209);
+    }
+    .eso{
+        font-size: 2em;
+    }
+    .zzz{
+        font-size: 3rem;
+        margin-left: 5%;
+    }
+    .zx{
+        margin: 2%;
+    }
+    .foto1{
+        width: 14%;
+        height: 14%;
+    }
+    .po{
+        font-size: 40px;
+    }
+    
+}
+
+
+/* --------------------tablet-------------------- */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .Menu_phone {
+        display: none;
+    }
+
+    .respmenu input,
+    .respmenu .fa-thin,
+    .respmenu .fa-times {
+        display: none;
+        height: 48px;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration-line:none;
+        color:inherit;
+        line-height: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    .body{
+        background-color: #fff59d;
+    }
+    .header{
+        background-color: #0c241a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        padding: 5px 5%;
+    }
+    .header .navbar li{
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+    .header .navbar a{
+        font-size: 700;
+        color:#eceff1 ;
+        text-decoration: none;
+    }
+    .header .navbar li:hover{
+        transform: scale(1.1);
+    }
+    .contenedor {
+        position: relative;
+        width: 75%;
+        margin-left:2% ;
+    }
+    
+    .foto {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        margin: 2% 2%;
+        border-radius: 50%;
+    }
+    
+    .nombre {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .contenedor:hover .foto {
+        opacity: 0.8;
+    }
+    
+    .contenedor:hover .nombre {
+        opacity: 1;
+    }
+    
+    .texto {
+        background-color: #a7e4f3;
+        color: black;
+        font-size: 16px;
+        padding: 16px 32px;
+        text-align: center;
+    }   
+    
+    .contenedorGrande{
+        float: left;
+        display:flex ;
+    }
+    .informacion{
+        margin-left: 7%;
+    }
+
+    .info{
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-right: 7%;
+    text-align: justify;
+    
+    }
+    .titulo{
+        text-align: center;
+        font-size: 5rem;
+    }
+    .center{
+        text-align: center;
+        font-size: 3rem;
+        color: #9b433d;
+    }
+    .center1{
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(28, 245, 209);
+    }
+    .eso{
+        font-size: 2em;
+    }
+    .zzz{
+        font-size: 3rem;
+        margin-left: 5%;
+    }
+    .zx{
+        margin: 2%;
+    }
+    .foto1{
+        width: 14%;
+        height: 14%;
+    }
+    .po{
+        font-size: 40px;
+    }
+}
+
+/* --------------------celular-------------------- */
+@media screen and (max-width: 767px) {
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        text-decoration-line:none;
+        color:inherit;
+        line-height: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        
+    }
+    .body{
+        background-color: #fff59d;
+    }
+    .header{
+        background-color: #0c241a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        padding: 5px 5%;
+    }
+    .header .navbar li{
+        display: inline-block;
+        padding: 0 20px;
+    }
+
+    .header .navbar a{
+        font-size: 700;
+        color:#eceff1 ;
+        text-decoration: none;
+    }
+    .header .navbar li:hover{
+        transform: scale(1.1);
+    }
+    .contenedor {
+        position: relative;
+        width: 75%;
+        margin-left:2% ;
+    }
+    
+    .foto {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+        margin: 2% 2%;
+        border-radius: 50%;
+    }
+    
+    .nombre {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    .contenedor:hover .foto {
+        opacity: 0.8;
+    }
+    
+    .contenedor:hover .nombre {
+        opacity: 1;
+    }
+    
+    .texto {
+        background-color: #a7e4f3;
+        color: black;
+        font-size: 16px;
+        padding: 16px 32px;
+        text-align: center;
+    }   
+    
+    .contenedorGrande{
+        float: left;
+        display:flex ;
+    }
+    .informacion{
+        margin-left: 7%;
+    }
+
+    .info{
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-right: 7%;
+    text-align: justify;
+    
+    }
+    .titulo{
+        text-align: center;
+        font-size: 5rem;
+    }
+    .center{
+        text-align: center;
+        font-size: 3rem;
+        color: #9b433d;
+    }
+    .center1{
+        text-align: center;
+        font-size: 3rem;
+        color: rgb(28, 245, 209);
+    }
+    .eso{
+        font-size: 2em;
+    }
+    .zzz{
+        font-size: 3rem;
+        margin-left: 5%;
+    }
+    .zx{
+        margin: 2%;
+    }
+    .foto1{
+        width: 14%;
+        height: 14%;
+    }
+    .po{
+        font-size: 40px;
+    }
+}
