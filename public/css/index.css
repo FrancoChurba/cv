@@ -1,16 +1,6 @@
 
 /* --------------------computadora-------------------- */
 @media screen and (min-width: 1024px) { 
-    .Menu_phone {
-        display: none;
-    }
-
-    .respmenu input,
-    .respmenu .fa-thin,
-    .respmenu .fa-times {
-        display: none;
-        height: 48px;
-    }
     * {
     margin: 0px;
     padding: 0px;
@@ -30,6 +20,8 @@
         align-items: center;
         height: 85px;
         padding: 5px 5%;
+        font-size: 3rem;
+        
     }
     .header .navbar li{
         display: inline-block;
@@ -40,6 +32,7 @@
         font-size: 700;
         color:#eceff1 ;
         text-decoration: none;
+        
     }
     .header .navbar li:hover{
         transform: scale(1.1);
@@ -47,14 +40,14 @@
     .contenedor {
         position: relative;
         width: 75%;
-        margin-left:2% ;
+        margin-left:2%;
     }
     
     .foto {
         opacity: 1;
         display: block;
         width: 100%;
-        height: auto;
+        
         transition: .5s ease;
         backface-visibility: hidden;
         margin: 2% 2%;
@@ -133,23 +126,16 @@
     }
     .po{
         font-size: 40px;
+        color: red;
+    }  
+    .tr{
+        font-size: 2rem;
     }
-    
 }
 
 
 /* --------------------tablet-------------------- */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .Menu_phone {
-        display: none;
-    }
-
-    .respmenu input,
-    .respmenu .fa-thin,
-    .respmenu .fa-times {
-        display: none;
-        height: 48px;
-    }
     *{
         margin: 0px;
         padding: 0px;
@@ -158,7 +144,6 @@
         color:inherit;
         line-height: normal;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
     }
     .body{
         background-color: #fff59d;
@@ -168,12 +153,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 85px;
+        height: 100%;
         padding: 5px 5%;
+        width: 100%;
     }
     .header .navbar li{
         display: inline-block;
         padding: 0 20px;
+        font-size: 1rem;
     }
 
     .header .navbar a{
@@ -193,7 +180,7 @@
     .foto {
         opacity: 1;
         display: block;
-        width: 100%;
+        width: 150%;
         height: auto;
         transition: .5s ease;
         backface-visibility: hidden;
@@ -268,12 +255,19 @@
         margin: 2%;
     }
     .foto1{
-        width: 14%;
-        height: 14%;
+        width: 25%;
+        height: 25%;
     }
     .po{
         font-size: 40px;
+        text-align: center;
+        color: red;
     }
+    .len{
+        text-align: center;
+        font-size: 3rem;
+    }
+    
 }
 
 /* --------------------celular-------------------- */
@@ -287,19 +281,23 @@
         color:inherit;
         line-height: normal;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 30px;
-        
+
     }
     .body{
-        background-color: #fff59d;
+        background-color: #fff59d; 
     }
     .header{
         background-color: #0c241a;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 85px;
+        max-width: 100%;
+        height:100%;
+        width: 100%;
         padding: 5px 5%;
+        position: relative;
+
+
     }
     .header .navbar li{
         display: inline-block;
@@ -310,10 +308,12 @@
         font-size: 700;
         color:#eceff1 ;
         text-decoration: none;
+        margin-top: 1rem;
     }
     .header .navbar li:hover{
         transform: scale(1.1);
     }
+    
     .contenedor {
         position: relative;
         width: 75%;
@@ -323,12 +323,12 @@
     .foto {
         opacity: 1;
         display: block;
-        width: 100%;
         height: auto;
         transition: .5s ease;
         backface-visibility: hidden;
         margin: 2% 2%;
         border-radius: 50%;
+        width: 10rem;
     }
     
     .nombre {
@@ -361,25 +361,26 @@
     .contenedorGrande{
         float: left;
         display:flex ;
+        max-height: 100%;
+        max-width: 100%;
     }
     .informacion{
         margin-left: 7%;
+        font-size: 1em
     }
 
     .info{
-    margin-left: 10%;
-    margin-top: 100px;
-    margin-right: 7%;
-    text-align: justify;
-    
+        text-align: center;
+        font-size: 1em;
+        
     }
     .titulo{
         text-align: center;
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .center{
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         color: #9b433d;
     }
     .center1{
@@ -388,10 +389,10 @@
         color: rgb(28, 245, 209);
     }
     .eso{
-        font-size: 2em;
+        font-size: 1em;
     }
     .zzz{
-        font-size: 3rem;
+        font-size: 2rem;
         margin-left: 5%;
     }
     .zx{
@@ -401,7 +402,24 @@
         width: 14%;
         height: 14%;
     }
-    .po{
-        font-size: 40px;
+    .len{
+        font-size: 2rem;
     }
+    .po{
+        font-size: 3rem;
+        text-align: center;
+        color: red;
+    }
+    .tr{
+        font-size: 3rem;
+        margin-left: 50px;
+    }
+    .burger-menu{
+        text-align: center;
+      
+        width: 30%;
+        right: 30px;
+        
+    }
+
 }
